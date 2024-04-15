@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+
+actor Cliente as C
+actor Doctor as D
+
+rectangle Sistema {
+    usecase "Agendar cita" as UC1
+    usecase "Cancelar cita" as UC1a
+    usecase "Modificar cita" as UC1b
+    usecase "Verificar disponibilidad de horario" as UC1c
+    usecase "Registrar consulta" as UC2
+    usecase "Generar receta" as UC3
+    usecase "Realizar pago" as UC4
+    usecase "Visualizar historial médico" as UC5
+    usecase "Generar reportes" as UC6
+
+    C --> UC1
+    C --> UC4
+    D --> UC2
+    D --> UC3
+    D --> UC5
+
+    UC1 ..> UC1a : <<extends>>
+    UC1 ..> UC1b : <<extends>>
+    UC1 ..> UC1c : <<include>>
+    UC5 ..> UC6 : <<include>>
+    UC2 ..> UC6 : <<include>>
+}
+
+@enduml
+

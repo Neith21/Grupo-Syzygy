@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+actor "Veterinario/laboratorista" as User
+
+rectangle "Autenticación" {
+    (Iniciar Sesión)
+}
+
+rectangle "Sistema" {
+    (Ir a la Sección de Animales)
+    (Seleccionar Animal)
+    (Consultar Exámenes Clínicos Recientes)
+    (Revisar Resultados del Examen Clínico)
+    (Identificar Anomalías)
+    (Marcar Anomalías)
+    (Registrar Diagnóstico)
+    (Volver a la Página Principal)
+}
+
+User -- (Iniciar Sesión)
+(User) -- (Ir a la Sección de Animales)
+User -- (Seleccionar Animal)
+User -- (Consultar Exámenes Clínicos Recientes)
+User -- (Revisar Resultados del Examen Clínico)
+User -- (Identificar Anomalías)
+User -- (Marcar Anomalías)
+User -- (Registrar Diagnóstico)
+User -- (Volver a la Página Principal)
+
+@enduml
