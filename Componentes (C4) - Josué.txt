@@ -1,0 +1,24 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
+
+Person(usuario, "Veterinario", "Veterinario que diagnostica enfermedades animales")
+System(sistema, "Sistema de Diagnóstico Veterinario", "Sistema para automatizar el diagnóstico de enfermedades")
+
+ComponentDb(animalData, "Datos del Animal", "Base de Datos", "Almacena todos los datos del animal")
+ComponentDb(refValues, "Base de Datos de Valores de Referencia", "Base de Datos", "Almacena los valores de referencia para diferentes parámetros")
+Component(anomalyInterface, "Interfaz de Detección de Anomalías", "Interfaz", "Interfaz para identificar anomalías en los parámetros")
+Component(llmService, "Servicio de Reconocimiento de Patrones LLM", "Servicio Externo", "Servicio para reconocer patrones en los datos")
+Component(results, "Resultados de Exámenes Clínicos", "Módulo", "Maneja la entrada de resultados de exámenes")
+
+Rel(usuario, results, "Ingresa resultados de exámenes", "https")
+Rel(results, refValues, "Obtiene valores de referencia", "https")
+Rel(refValues, anomalyInterface, "Proporciona valores de referencia", "https")
+Rel(anomalyInterface, llmService, "Envía datos para reconocimiento de patrones", "https")
+Rel(llmService, usuario, "Devuelve diagnósticos potenciales", "https")
+Rel(results, animalData, "Lee/Escribe", "orm")
+Rel(refValues, animalData, "Lee/Escribe", "orm")
+Rel(anomalyInterface, animalData, "Lee/Escribe", "orm")
+Rel(llmService, animalData, "Lee/Escribe", "orm")
+
+@enduml
+
