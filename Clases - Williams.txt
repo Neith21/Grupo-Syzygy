@@ -1,0 +1,70 @@
+@startuml VetApp
+
+class Species {
+    + SpeciesID: int
+    + Name: varchar
+}
+
+class Animals {
+    + AnimalID: int
+    + Name: varchar
+    + Age: int
+    + Gender: char
+    + SpeciesID: int
+}
+
+class LabTechnicians {
+    + LabTechnicianID: int
+    + Name: varchar
+    + Specialization: varchar
+}
+
+class Veterinarians {
+    + VeterinarianID: int
+    + Name: varchar
+    + Specialization: varchar
+}
+
+class ClinicalExams {
+    + ExamID: int
+    + AnimalID: int
+    + LabTechnicianID: int
+    + Date: date
+    + Observations: text
+}
+
+class ReferenceValues {
+    + ValueID: int
+    + ExamType: varchar
+    + SpeciesID: int
+    + MinAge: int
+    + MaxAge: int
+    + Gender: char
+    + NormalValue: float
+}
+
+class ExamAnalysis {
+    + ExamAnalysisID: int
+    + ExamID: int
+    + LabTechnicianID: int
+    + Result: text
+    + Date: date
+}
+
+class Diagnostics {
+    + DiagnosticID: int
+    + VeterinarianID: int
+    + Result: text
+    + Date: date
+    + Observations: text
+}
+
+Species "1" -- "*" Animals
+LabTechnicians "1" -- "*" ClinicalExams
+Animals "1" -- "*" ClinicalExams
+LabTechnicians "1" -- "*" ExamAnalysis
+ClinicalExams "1" -- "*" ExamAnalysis
+Veterinarians "1" -- "*" Diagnostics
+ClinicalExams "1" -- "*" Diagnostics
+
+@enduml
