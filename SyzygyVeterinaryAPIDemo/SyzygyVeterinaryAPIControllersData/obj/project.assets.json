@@ -931,19 +931,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\crist\\.nuget\\packages\\": {}
+    "C:\\Users\\sraar\\.nuget\\packages\\": {},
+    "D:\\Program Files\\Visual Studio 2022\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crist\\Desktop\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
+      "projectUniqueName": "D:\\Repositorios de VS\\Repo - Veterinaria\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
       "projectName": "SyzygyVeterinaryAPIControllersData",
-      "projectPath": "C:\\Users\\crist\\Desktop\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
-      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crist\\Desktop\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\obj\\",
+      "projectPath": "D:\\Repositorios de VS\\Repo - Veterinaria\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
+      "packagesPath": "C:\\Users\\sraar\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositorios de VS\\Repo - Veterinaria\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files\\Visual Studio 2022\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sraar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -951,6 +956,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -963,6 +969,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1006,7 +1017,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

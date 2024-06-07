@@ -1,8 +1,10 @@
 using FluentValidation;
 using SyzygyVeterinaryAPIControllersData.Data;
 using SyzygyVeterinaryAPIControllersData.Models;
+using SyzygyVeterinaryAPIControllersData.Repositories.Diagnostic;
 using SyzygyVeterinaryAPIControllersData.Repositories.ExamAnalyses;
 using SyzygyVeterinaryAPIControllersData.Repositories.ReferenceValues;
+using SyzygyVeterinaryAPIControllersData.Repositories.Veterinaries;
 using SyzygyVeterinaryAPIControllersData.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,10 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<IDbDataAccess, DbDataAccess>();
 builder.Services.AddScoped<IExamAnalysisRepository, ExamAnalysisRepository>();
 builder.Services.AddScoped<IReferenceValueRepository, ReferenceValueRepository>();
+builder.Services.AddScoped<IVeterinariansRepository, VeterinariansRepository>();
+builder.Services.AddScoped<IDiagnosticsRepository, DiagnosticsRepository>();
 
 // Validation
 builder.Services.AddScoped<IValidator<ExamAnalysisModel>, ExamAnalysisValidator>();
 builder.Services.AddScoped<IValidator<ReferenceValueModel>, ReferenceValueValidator>();
+builder.Services.AddScoped<IValidator<DiagnosticsModel>, DiagnosticsValidator>();
+builder.Services.AddScoped<IValidator<VeterinariansModel>, VeterinariansValidator>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

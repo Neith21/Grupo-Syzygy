@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SyzygyVeterinaryAPIControllersData
-build_property.ProjectDir = C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\
+build_property.ProjectDir = D:\Repositorios de VS\Repo - Veterinaria\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

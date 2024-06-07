@@ -299,3 +299,158 @@ BEGIN
         rv.ReferenceValueId = @ReferenceValueId;
 END;
 GO
+
+---Proceso almacenados para tabla diagnostics:
+CREATE OR ALTER PROCEDURE dbo.spDiagnostics_GetAll
+AS
+BEGIN
+    SELECT 
+        DiagnosticId,
+        DiagnosticResult,
+        DiagnosticDate,
+        DiagnosticObservations,
+        V.VeterinarianId,
+		V.VeterinarianName,
+        C.ClinicalExamId
+    FROM 
+        Diagnostics D
+	INNER JOIN Veterinarians V ON v.VeterinarianId = D.VeterinarianId
+	INNER JOIN ClinicalExams C ON D.ClinicalExamId = C.ClinicalExamId
+	
+END;
+GO
+
+EXEC dbo.spDiagnostics_GetAll;
+
+CREATE OR ALTER PROCEDURE dbo.spDiagnostics_GetById
+    @DiagnosticId INT
+AS
+BEGIN
+    SELECT 
+        DiagnosticId,
+        DiagnosticResult,
+        DiagnosticDate,
+        DiagnosticObservations,
+        V.VeterinarianId,
+		V.VeterinarianName,
+        C.ClinicalExamId
+    FROM 
+        Diagnostics D
+		INNER JOIN Veterinarians V ON v.VeterinarianId = D.VeterinarianId
+		INNER JOIN ClinicalExams C ON D.ClinicalExamId = C.ClinicalExamId
+    WHERE 
+        DiagnosticId = @DiagnosticId;
+END;
+GO
+
+EXEC spDiagnostics_GetById 1
+
+
+CREATE OR ALTER PROCEDURE dbo.spDiagnostics_Update
+(@DiagnosticId INT, @DiagnosticResult NVARCHAR(MAX), @DiagnosticDate DATE, @DiagnosticObservations NVARCHAR(MAX), @VeterinarianId INT, @ClinicalExamId INT)
+AS
+BEGIN
+    UPDATE Diagnostics
+    SET 
+        DiagnosticResult = @DiagnosticResult,
+        DiagnosticDate = @DiagnosticDate,
+        DiagnosticObservations = @DiagnosticObservations,
+        VeterinarianId = @VeterinarianId,
+        ClinicalExamId = @ClinicalExamId
+    WHERE 
+        DiagnosticId = @DiagnosticId;
+END;
+GO
+
+CREATE OR ALTER PROCEDURE dbo.spDiagnostics_Insert
+    @DiagnosticResult NVARCHAR(MAX),
+    @DiagnosticDate DATE,
+    @DiagnosticObservations NVARCHAR(MAX),
+    @VeterinarianId INT,
+    @ClinicalExamId INT
+AS
+BEGIN
+    INSERT INTO Diagnostics (DiagnosticResult, DiagnosticDate, DiagnosticObservations, VeterinarianId, ClinicalExamId)
+    VALUES (@DiagnosticResult, @DiagnosticDate, @DiagnosticObservations, @VeterinarianId, @ClinicalExamId);
+END;
+GO
+
+
+CREATE OR ALTER PROCEDURE dbo.spDiagnostics_Delete
+    @DiagnosticId INT
+AS
+BEGIN
+    DELETE FROM Diagnostics
+    WHERE DiagnosticId = @DiagnosticId;
+END;
+GO
+
+
+--Proceso almacenados para tabla veterianarians
+CREATE OR ALTER PROCEDURE dbo.spVeterinarians_GetAll
+AS
+BEGIN
+    SELECT 
+        VeterinarianId,
+        VeterinarianName,
+        VeterinarianSpecialization
+    FROM 
+        Veterinarians;
+END;
+GO
+
+EXEC dbo.spVeterinarians_GetAll
+go
+
+CREATE OR ALTER PROCEDURE dbo.spVeterinarians_GetById
+    @VeterinarianId INT
+AS
+BEGIN
+    SELECT 
+        VeterinarianId,
+        VeterinarianName,
+        VeterinarianSpecialization
+    FROM 
+        Veterinarians
+    WHERE 
+        VeterinarianId = @VeterinarianId;
+END;
+GO
+
+exec dbo.spVeterinarians_GetById 1
+
+
+CREATE OR ALTER PROCEDURE dbo.spVeterinarians_Insert
+    @VeterinarianName VARCHAR(100),
+    @VeterinarianSpecialization VARCHAR(100)
+AS
+BEGIN
+    INSERT INTO Veterinarians (VeterinarianName, VeterinarianSpecialization)
+    VALUES (@VeterinarianName, @VeterinarianSpecialization);
+END;
+GO
+
+
+CREATE OR ALTER PROCEDURE dbo.spVeterinarians_Update
+    @VeterinarianId INT,
+    @VeterinarianName VARCHAR(100),
+    @VeterinarianSpecialization VARCHAR(100)
+AS
+BEGIN
+    UPDATE Veterinarians
+    SET 
+        VeterinarianName = @VeterinarianName,
+        VeterinarianSpecialization = @VeterinarianSpecialization
+    WHERE 
+        VeterinarianId = @VeterinarianId;
+END;
+GO
+
+CREATE OR ALTER PROCEDURE dbo.spVeterinarians_Delete
+    @VeterinarianId INT
+AS
+BEGIN
+    DELETE FROM Veterinarians
+    WHERE VeterinarianId = @VeterinarianId;
+END;
+GO
