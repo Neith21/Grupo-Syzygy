@@ -1,0 +1,22 @@
+@startuml VetAppProject
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+Container(app, "Vet web App", "App Web", "Aplicación movil para la interacción con el sistema")
+Container(PC, "Vet Program", "Aplicación de escritorio", "Contacto del ordenador con el sistema")
+System_Boundary(Vet, "VET APP") {
+  Container(login, "Sistema de login", "rest api", "Inicio de sesión para usuarios")
+  Container(admin, "Sistema Administración", "rest api", "Acceso para los usuarios con mayores privilegios")
+  Container(management, "Gestor de datos", "rest api", "Acceso a los datos")
+  Container(diagnostic, "Generador de diagnosticos", "process", "Genera diagnosticos en base a patrones")
+}
+ContainerDb(db, "Base de datos", "db connect", "Almacena toda la información")
+
+Rel_D(app, login, "Requests", "https")
+Rel_D(PC, login, "Requests", "https")
+Rel(login, admin, "Requests", "https")
+Rel_R(login, management, "Requests", "https")
+Rel_R(management, diagnostic, "Requests", "https")
+Rel_R(Vet, db, "Reads/Writes", "orm")
+
+@enduml

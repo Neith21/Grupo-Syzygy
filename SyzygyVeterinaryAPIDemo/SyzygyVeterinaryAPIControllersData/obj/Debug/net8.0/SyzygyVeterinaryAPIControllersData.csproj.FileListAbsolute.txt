@@ -1,0 +1,12 @@
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.deps.json
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.pdb
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.csproj.AssemblyReference.cache
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.AssemblyInfoInputs.cache
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.AssemblyInfo.cs
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.csproj.CoreCompileInputs.cache
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\refint\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.pdb
+C:\Users\crist\Desktop\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\ref\SyzygyVeterinaryAPIControllersData.dll
