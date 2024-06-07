@@ -931,24 +931,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sraar\\.nuget\\packages\\": {},
-    "D:\\Program Files\\Visual Studio 2022\\Shared\\NuGetPackages": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios de VS\\Repo - Veterinaria\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\Api_GitHub\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
       "projectName": "SyzygyVeterinaryAPIControllersData",
-      "projectPath": "D:\\Repositorios de VS\\Repo - Veterinaria\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
-      "packagesPath": "C:\\Users\\sraar\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositorios de VS\\Repo - Veterinaria\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\Api_GitHub\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\Api_GitHub\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files\\Visual Studio 2022\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sraar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1017,7 +1012,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

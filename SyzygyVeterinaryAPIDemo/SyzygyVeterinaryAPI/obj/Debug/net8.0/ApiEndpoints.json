@@ -1,0 +1,555 @@
+[
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.AnimalOwnerController",
+    "Method": "Get",
+    "RelativePath": "api/AnimalOwners",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.AnimalOwnerController",
+    "Method": "Post",
+    "RelativePath": "api/AnimalOwners",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalOwner",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.AnimalOwnerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.AnimalOwnerController",
+    "Method": "Get",
+    "RelativePath": "api/AnimalOwners/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.AnimalOwnerController",
+    "Method": "Put",
+    "RelativePath": "api/AnimalOwners/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "animalOwner",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.AnimalOwnerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.AnimalOwnerController",
+    "Method": "Delete",
+    "RelativePath": "api/AnimalOwners/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.DiagnosticsController",
+    "Method": "Get",
+    "RelativePath": "api/Diagnostics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.DiagnosticsController",
+    "Method": "Post",
+    "RelativePath": "api/Diagnostics",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diagnostic",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.DiagnosticsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.DiagnosticsController",
+    "Method": "Get",
+    "RelativePath": "api/Diagnostics/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.DiagnosticsController",
+    "Method": "Put",
+    "RelativePath": "api/Diagnostics/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "diagnostics",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.DiagnosticsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.DiagnosticsController",
+    "Method": "Delete",
+    "RelativePath": "api/Diagnostics/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ExamAnalysisController",
+    "Method": "Get",
+    "RelativePath": "api/ExamAnalyses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ExamAnalysisController",
+    "Method": "Post",
+    "RelativePath": "api/ExamAnalyses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examAnalysis",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.ExamAnalysisModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ExamAnalysisController",
+    "Method": "Get",
+    "RelativePath": "api/ExamAnalyses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ExamAnalysisController",
+    "Method": "Put",
+    "RelativePath": "api/ExamAnalyses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "examAnalysis",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.ExamAnalysisModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ExamAnalysisController",
+    "Method": "Delete",
+    "RelativePath": "api/ExamAnalyses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.LabTechnicianController",
+    "Method": "Get",
+    "RelativePath": "api/LabTechnicians",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.LabTechnicianController",
+    "Method": "Post",
+    "RelativePath": "api/LabTechnicians",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "labTechnician",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.LabTechnicianModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.LabTechnicianController",
+    "Method": "Get",
+    "RelativePath": "api/LabTechnicians/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.LabTechnicianController",
+    "Method": "Put",
+    "RelativePath": "api/LabTechnicians/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "labTechnician",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.LabTechnicianModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.LabTechnicianController",
+    "Method": "Delete",
+    "RelativePath": "api/LabTechnicians/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ReferenceValueController",
+    "Method": "Get",
+    "RelativePath": "api/ReferenceValues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ReferenceValueController",
+    "Method": "Post",
+    "RelativePath": "api/ReferenceValues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "referenceValue",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.ReferenceValueModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ReferenceValueController",
+    "Method": "Get",
+    "RelativePath": "api/ReferenceValues/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ReferenceValueController",
+    "Method": "Put",
+    "RelativePath": "api/ReferenceValues/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "referenceValue",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.ReferenceValueModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.ReferenceValueController",
+    "Method": "Delete",
+    "RelativePath": "api/ReferenceValues/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.SpeciesController",
+    "Method": "Get",
+    "RelativePath": "api/Species",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.SpeciesController",
+    "Method": "Post",
+    "RelativePath": "api/Species",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "species",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.SpeciesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.SpeciesController",
+    "Method": "Get",
+    "RelativePath": "api/Species/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.SpeciesController",
+    "Method": "Put",
+    "RelativePath": "api/Species/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "species",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.SpeciesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.SpeciesController",
+    "Method": "Delete",
+    "RelativePath": "api/Species/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.VeterinariansController",
+    "Method": "Get",
+    "RelativePath": "api/Veterinarians",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.VeterinariansController",
+    "Method": "Post",
+    "RelativePath": "api/Veterinarians",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "veterinarian",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.VeterinariansModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.VeterinariansController",
+    "Method": "Get",
+    "RelativePath": "api/Veterinarians/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.VeterinariansController",
+    "Method": "Put",
+    "RelativePath": "api/Veterinarians/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "veterinarian",
+        "Type": "SyzygyVeterinaryAPIControllersData.Models.VeterinariansModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SyzygyVeterinaryAPI.Controllers.VeterinariansController",
+    "Method": "Delete",
+    "RelativePath": "api/Veterinarians/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

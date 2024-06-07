@@ -454,3 +454,197 @@ BEGIN
     WHERE VeterinarianId = @VeterinarianId;
 END;
 GO
+
+---------------------------------------- SP_AnimalOwners------------------------------------------
+
+-- Procedimiento almacenado para insertar un nuevo propietario de animal
+CREATE PROCEDURE sp_AnimalOwner_Insert
+    @AnimalOwnerName VARCHAR(100),
+    @AnimalOwnerContactInfo VARCHAR(255)
+AS
+BEGIN
+    INSERT INTO AnimalOwners (AnimalOwnerName, AnimalOwnerContactInfo)
+    VALUES (@AnimalOwnerName, @AnimalOwnerContactInfo);
+END;
+GO
+
+-- Procedimiento almacenado para actualizar un propietario de animal
+CREATE PROCEDURE sp_AnimalOwner_Update
+    @AnimalOwnerId INT,
+    @AnimalOwnerName VARCHAR(100),
+    @AnimalOwnerContactInfo VARCHAR(255)
+AS
+BEGIN
+    UPDATE AnimalOwners
+    SET AnimalOwnerName = @AnimalOwnerName,
+        AnimalOwnerContactInfo = @AnimalOwnerContactInfo
+    WHERE AnimalOwnerId = @AnimalOwnerId;
+END;
+GO
+
+-- Procedimiento almacenado para eliminar un propietario de animal
+CREATE PROCEDURE sp_AnimalOwner_Delete
+    @AnimalOwnerId INT
+AS
+BEGIN
+    DELETE FROM AnimalOwners
+    WHERE AnimalOwnerId = @AnimalOwnerId;
+END;
+GO
+
+-- Procedimiento almacenado para obtener información de un propietario de animal por ID
+CREATE PROCEDURE sp_AnimalOwner_GetById
+    @AnimalOwnerId INT
+AS
+BEGIN
+    SELECT AnimalOwnerId, AnimalOwnerName, AnimalOwnerContactInfo
+    FROM AnimalOwners
+    WHERE AnimalOwnerId = @AnimalOwnerId;
+END;
+GO
+
+-- Procedimiento almacenado para obtener la lista de todos los propietarios de animales
+CREATE PROCEDURE sp_AnimalOwner_GetAll
+AS
+BEGIN
+    SELECT AnimalOwnerId, AnimalOwnerName, AnimalOwnerContactInfo
+    FROM AnimalOwners;
+END;
+GO
+
+----
+INSERT INTO AnimalOwners (AnimalOwnerName, AnimalOwnerContactInfo)
+VALUES 
+('John Doe', '5555-1234'),
+('Jane Smith', '5555-5678');
+----
+GO
+------------------------------ sp_Species------------------------------------------------
+
+-- Procedimiento almacenado para insertar una nueva especie
+CREATE PROCEDURE sp_Species_Insert
+    @SpeciesName VARCHAR(100)
+AS
+BEGIN
+    INSERT INTO Species (SpeciesName)
+    VALUES (@SpeciesName);
+END;
+GO
+
+-- Procedimiento almacenado para actualizar una especie
+CREATE PROCEDURE sp_Species_Update
+    @SpeciesId INT,
+    @SpeciesName VARCHAR(100)
+AS
+BEGIN
+    UPDATE Species
+    SET SpeciesName = @SpeciesName
+    WHERE SpeciesId = @SpeciesId;
+END;
+GO
+
+-- Procedimiento almacenado para eliminar una especie
+CREATE PROCEDURE sp_Species_Delete
+    @SpeciesId INT
+AS
+BEGIN
+    DELETE FROM Species
+    WHERE SpeciesId = @SpeciesId;
+END;
+GO
+
+-- Procedimiento almacenado para obtener información de una especie por ID
+CREATE PROCEDURE sp_Species_GetById
+    @SpeciesId INT
+AS
+BEGIN
+    SELECT SpeciesId, SpeciesName
+    FROM Species
+    WHERE SpeciesId = @SpeciesId;
+END;
+GO
+
+-- Procedimiento almacenado para obtener la lista de todas las especies
+CREATE PROCEDURE sp_Species_GetAll
+AS
+BEGIN
+    SELECT SpeciesId, SpeciesName
+    FROM Species;
+END;
+GO
+
+-----
+INSERT INTO Species (SpeciesName)
+VALUES 
+('Canino'),
+('Felino'),
+('Conejo'),
+('Pájaro');
+-----
+GO
+
+------------------------spLabTechnicians----------------------------------------------
+
+-- Procedimiento almacenado para insertar un nuevo técnico de laboratorio
+CREATE PROCEDURE sp_LabTechnicians_Insert
+    @LabTechnicianName VARCHAR(100),
+    @LabTechnicianSpecialization VARCHAR(100)
+AS
+BEGIN
+    INSERT INTO LabTechnicians (LabTechnicianName, LabTechnicianSpecialization)
+    VALUES (@LabTechnicianName, @LabTechnicianSpecialization);
+    
+END;
+GO
+
+-- Procedimiento almacenado para actualizar un técnico de laboratorio
+CREATE PROCEDURE sp_LabTechnicians_Update
+    @LabTechnicianId INT,
+    @LabTechnicianName VARCHAR(100),
+    @LabTechnicianSpecialization VARCHAR(100)
+AS
+BEGIN
+    UPDATE LabTechnicians
+    SET LabTechnicianName = @LabTechnicianName,
+        LabTechnicianSpecialization = @LabTechnicianSpecialization
+    WHERE LabTechnicianId = @LabTechnicianId;
+END;
+GO
+
+-- Procedimiento almacenado para eliminar un técnico de laboratorio
+CREATE PROCEDURE sp_LabTechnicians_Delete
+    @LabTechnicianId INT
+AS
+BEGIN
+    DELETE FROM LabTechnicians
+    WHERE LabTechnicianId = @LabTechnicianId;
+END;
+GO
+
+-- Procedimiento almacenado para obtener información de un técnico de laboratorio por ID
+CREATE PROCEDURE sp_LabTechnicians_GetById
+    @LabTechnicianId INT
+AS
+BEGIN
+    SELECT LabTechnicianId, LabTechnicianName, LabTechnicianSpecialization
+    FROM LabTechnicians
+    WHERE LabTechnicianId = @LabTechnicianId;
+END;
+GO
+
+-- Procedimiento almacenado para obtener la lista de todos los técnicos de laboratorio
+CREATE PROCEDURE sp_LabTechnicians_GetAll
+AS
+BEGIN
+    SELECT LabTechnicianId, LabTechnicianName, LabTechnicianSpecialization
+    FROM LabTechnicians;
+END;
+GO
+
+-----
+INSERT INTO LabTechnicians (LabTechnicianName, LabTechnicianSpecialization)
+VALUES 
+('Juan Pérez', 'Bioquímica'),
+('María López', 'Microbiología'),
+('Pedro González', 'Genética');
+----

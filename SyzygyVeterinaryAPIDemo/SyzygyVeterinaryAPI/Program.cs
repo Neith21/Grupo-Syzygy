@@ -1,9 +1,12 @@
 using FluentValidation;
 using SyzygyVeterinaryAPIControllersData.Data;
 using SyzygyVeterinaryAPIControllersData.Models;
+using SyzygyVeterinaryAPIControllersData.Repositories.AnimalOwners;
 using SyzygyVeterinaryAPIControllersData.Repositories.Diagnostic;
 using SyzygyVeterinaryAPIControllersData.Repositories.ExamAnalyses;
+using SyzygyVeterinaryAPIControllersData.Repositories.LabTechnicians;
 using SyzygyVeterinaryAPIControllersData.Repositories.ReferenceValues;
+using SyzygyVeterinaryAPIControllersData.Repositories.Species;
 using SyzygyVeterinaryAPIControllersData.Repositories.Veterinaries;
 using SyzygyVeterinaryAPIControllersData.Validations;
 
@@ -15,12 +18,18 @@ builder.Services.AddScoped<IExamAnalysisRepository, ExamAnalysisRepository>();
 builder.Services.AddScoped<IReferenceValueRepository, ReferenceValueRepository>();
 builder.Services.AddScoped<IVeterinariansRepository, VeterinariansRepository>();
 builder.Services.AddScoped<IDiagnosticsRepository, DiagnosticsRepository>();
+builder.Services.AddScoped<IAnimalOwnerRepository, AnimalOwnerRepository>();
+builder.Services.AddScoped<ISpeciesRepository, SpeciesRepository>();
+builder.Services.AddScoped<ILabTechnicianRepository, LabTechnicianRepository>();
 
 // Validation
 builder.Services.AddScoped<IValidator<ExamAnalysisModel>, ExamAnalysisValidator>();
 builder.Services.AddScoped<IValidator<ReferenceValueModel>, ReferenceValueValidator>();
 builder.Services.AddScoped<IValidator<DiagnosticsModel>, DiagnosticsValidator>();
 builder.Services.AddScoped<IValidator<VeterinariansModel>, VeterinariansValidator>();
+builder.Services.AddScoped<IValidator<AnimalOwnerModel>, AnimalOwnerValidator>();
+builder.Services.AddScoped<IValidator<SpeciesModel>, SpeciesValidator>();
+builder.Services.AddScoped<IValidator<LabTechnicianModel>, LabTechnicianValidator>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
