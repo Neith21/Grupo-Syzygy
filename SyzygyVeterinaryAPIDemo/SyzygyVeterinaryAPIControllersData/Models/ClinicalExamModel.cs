@@ -13,7 +13,7 @@ namespace SyzygyVeterinaryAPIControllersData.Models
 		public int AnimalId { get; set; }
 		public int LabTechnicianId { get; set; }
 
-		/*public AnimalModel? Animal { get; set; }
-		public LabTechnicianModel? LabTechnician { get; set; }*/
+		public AnimalModel? Animal { get; set; }
+		public LabTechnicianModel? LabTechnician { get; set; }
 	}
 }

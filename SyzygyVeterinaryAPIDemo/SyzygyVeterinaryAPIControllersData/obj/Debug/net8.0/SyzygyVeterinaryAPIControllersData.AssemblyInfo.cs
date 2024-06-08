@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SyzygyVeterinaryAPIControllersData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64c85262f147d7008a1c050bed615dae4041438e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SyzygyVeterinaryAPIControllersData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SyzygyVeterinaryAPIControllersData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
