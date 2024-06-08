@@ -3,6 +3,7 @@ using SyzygyVeterinaryAPIControllersData.Data;
 using SyzygyVeterinaryAPIControllersData.Models;
 using SyzygyVeterinaryAPIControllersData.Repositories.AnimalOwners;
 using SyzygyVeterinaryAPIControllersData.Repositories.Animals;
+using SyzygyVeterinaryAPIControllersData.Repositories.ClinicalExams;
 using SyzygyVeterinaryAPIControllersData.Repositories.Diagnostic;
 using SyzygyVeterinaryAPIControllersData.Repositories.ExamAnalyses;
 using SyzygyVeterinaryAPIControllersData.Repositories.LabTechnicians;
@@ -23,6 +24,7 @@ builder.Services.AddScoped<IAnimalOwnerRepository, AnimalOwnerRepository>();
 builder.Services.AddScoped<ISpeciesRepository, SpeciesRepository>();
 builder.Services.AddScoped<ILabTechnicianRepository, LabTechnicianRepository>();
 builder.Services.AddScoped<IAnimalRepository, AnimalRepository>();
+builder.Services.AddScoped<IClinicalExamRepository, ClinicalExamRepository>();
 
 // Validation
 builder.Services.AddScoped<IValidator<ExamAnalysisModel>, ExamAnalysisValidator>();
@@ -33,6 +35,7 @@ builder.Services.AddScoped<IValidator<AnimalOwnerModel>, AnimalOwnerValidator>()
 builder.Services.AddScoped<IValidator<SpeciesModel>, SpeciesValidator>();
 builder.Services.AddScoped<IValidator<LabTechnicianModel>, LabTechnicianValidator>();
 builder.Services.AddScoped<IValidator<AnimalModel>, AnimalValidator>();
+builder.Services.AddScoped<IValidator<ClinicalExamModel>, ClinicalExamValidator>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

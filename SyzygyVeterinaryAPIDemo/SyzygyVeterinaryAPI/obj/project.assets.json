@@ -1372,11 +1372,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Proyecto\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
       "projectName": "SyzygyVeterinaryAPI",
-      "projectPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Proyecto\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
+      "projectPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
       "packagesPath": "C:\\Users\\guerr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Proyecto\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\obj\\",
+      "outputPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\guerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1393,8 +1393,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\guerr\\OneDrive\\Escritorio\\Proyecto\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj": {
-              "projectPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Proyecto\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj"
+            "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj": {
+              "projectPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj"
             }
           }
         }

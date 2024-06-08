@@ -36,3 +36,16 @@ C:\Users\PC\Desktop\Api_GitHub\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeteri
 C:\Users\PC\Desktop\Api_GitHub\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\refint\SyzygyVeterinaryAPIControllersData.dll
 C:\Users\PC\Desktop\Api_GitHub\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.pdb
 C:\Users\PC\Desktop\Api_GitHub\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\ref\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.deps.json
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.pdb
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.csproj.AssemblyReference.cache
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.AssemblyInfoInputs.cache
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.AssemblyInfo.cs
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.csproj.CoreCompileInputs.cache
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.sourcelink.json
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\refint\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\SyzygyVeterinaryAPIControllersData.pdb
+C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPIControllersData\obj\Debug\net8.0\ref\SyzygyVeterinaryAPIControllersData.dll
