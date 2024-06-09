@@ -10,6 +10,7 @@ using SyzygyVeterinaryAPIControllersData.Repositories.LabTechnicians;
 using SyzygyVeterinaryAPIControllersData.Repositories.ReferenceValues;
 using SyzygyVeterinaryAPIControllersData.Repositories.Species;
 using SyzygyVeterinaryAPIControllersData.Repositories.Veterinaries;
+using SyzygyVeterinaryAPIControllersData.Services.AnalisysExams;
 using SyzygyVeterinaryAPIControllersData.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +26,7 @@ builder.Services.AddScoped<ISpeciesRepository, SpeciesRepository>();
 builder.Services.AddScoped<ILabTechnicianRepository, LabTechnicianRepository>();
 builder.Services.AddScoped<IAnimalRepository, AnimalRepository>();
 builder.Services.AddScoped<IClinicalExamRepository, ClinicalExamRepository>();
+builder.Services.AddScoped<IAnalisysExamService, AnalisysExamService>();
 
 // Validation
 builder.Services.AddScoped<IValidator<ExamAnalysisModel>, ExamAnalysisValidator>();

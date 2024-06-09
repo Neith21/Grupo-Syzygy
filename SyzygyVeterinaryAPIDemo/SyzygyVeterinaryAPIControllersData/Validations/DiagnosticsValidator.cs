@@ -16,14 +16,13 @@ namespace SyzygyVeterinaryAPIControllersData.Validations
         {
             RuleFor(x => x.DiagnosticResult)
             .NotEmpty().WithMessage("Los resultados del diágnostico no pueden quedar vácios.")
-            /*.Must(BeValidJson).WithMessage("El resultado del diágnostico debe ser un JSON válido.")*/;
+            .Must(BeValidJson).WithMessage("El resultado del diágnostico debe ser un JSON válido.");
 
             RuleFor(x => x.DiagnosticDate)
             .NotEmpty().WithMessage("La fecha del diágnostico es obligatoria.");
 
             RuleFor(x => x.DiagnosticObservations)
-            .NotEmpty().WithMessage("Las observaciones del diágnostico no pueden quedar vácias.")
-            /*.Must(BeValidJson).WithMessage("Las observaciones del diágnostico deben de estar en un JSON válido.")*/;
+            .NotEmpty().WithMessage("Las observaciones del diágnostico no pueden quedar vácias.");
 
             RuleFor(x => x.VeterinarianId)
             .NotEmpty().WithMessage("El ID del veterinario es obligatorio")

@@ -1367,19 +1367,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\guerr\\.nuget\\packages\\": {}
+    "C:\\Users\\Williams\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Williams\\Desktop\\Hoy si xd clone\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
       "projectName": "SyzygyVeterinaryAPI",
-      "projectPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
-      "packagesPath": "C:\\Users\\guerr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\obj\\",
+      "projectPath": "C:\\Users\\Williams\\Desktop\\Hoy si xd clone\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\SyzygyVeterinaryAPI.csproj",
+      "packagesPath": "C:\\Users\\Williams\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Williams\\Desktop\\Hoy si xd clone\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\guerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Williams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1393,8 +1398,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj": {
-              "projectPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Estesimonestees\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj"
+            "C:\\Users\\Williams\\Desktop\\Hoy si xd clone\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj": {
+              "projectPath": "C:\\Users\\Williams\\Desktop\\Hoy si xd clone\\Grupo-Syzygy\\SyzygyVeterinaryAPIDemo\\SyzygyVeterinaryAPIControllersData\\SyzygyVeterinaryAPIControllersData.csproj"
             }
           }
         }
@@ -1437,7 +1442,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

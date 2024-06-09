@@ -99,12 +99,12 @@ INSERT INTO ClinicalExams (ClinicalExamDate, AnimalId, LabTechnicianId) VALUES
 ('2024-06-02', 2, 2);
 
 INSERT INTO ReferenceValues (AgeRange, AnalysisType, ReferenceData, SpeciesId) VALUES 
-('0-5', 'Glucosa', '{"references":[{"parameter":"Glucosa","minValue":70,"maxValue":110,"unit":"mg/dL"}]}', 1),
-('0-5', 'Glucosa', '{"references":[{"parameter":"Glucosa","minValue":60,"maxValue":100,"unit":"mg/dL"}]}', 2);
+('0-5', 'Glucosa', '{"references":[{"Glucosa":{"minValue":70,"maxValue":110,"unit":"mg/dL"}}]}', 1),
+('0-5', 'Creatinina', '{"references":[{"Creatinina":{"minValue":0.6,"maxValue":2.4,"unit":"mg/dL"},"Urea":{"minValue":10,"maxValue":50,"unit":"mg/dL"},"Fosforo":{"minValue":3.0,"maxValue":7.0,"unit":"mg/dL"},"Potasio":{"minValue":3.5,"maxValue":5.5,"unit":"mEq/L"}}]}', 2);
 
 INSERT INTO ExamAnalyses (AnalysisType, ResultData, ClinicalExamId) VALUES 
-('Glucosa', N'{"results":[{"parameter":"Glucosa","value":85,"unit":"mg/dL"}]}', 1),
-('Glucosa', N'{"results":[{"parameter":"Glucosa","value":95,"unit":"mg/dL"}]}', 2);
+('Glucosa', N'{"results":[{"Glucosa":{"value":120,"unit":"mg/dL"}}]}', 1),
+('Creatinina', N'{"results":[{"Creatinina":{"value":1.2,"unit":"mg/dL"},"Urea":{"value":20,"unit":"mg/dL"},"Fosforo":{"value":5.0,"unit":"mg/dL"},"Potasio":{"value":4.0,"unit":"mEq/L"}}]}', 2);
 
 INSERT INTO Diagnostics (DiagnosticResult, DiagnosticDate, DiagnosticObservations, VeterinarianId, ClinicalExamId) VALUES 
 ('No abnormalities detected.', '2024-06-01', 'Healthy', 1, 1),
@@ -813,3 +813,75 @@ BEGIN
         ce.ClinicalExamId = @ClinicalExamId;
 END;
 GO
+
+---------------------------------------------------------
+				/*Procesos para la IA*/
+---------------------------------------------------------
+CREATE OR ALTER PROCEDURE dbo.spAnalizeExam_GetDataJsonByIdReferences
+	@SpeciesName NVARCHAR(100),
+    @ExamType1 NVARCHAR(100),
+    @ExamType2 NVARCHAR(100),
+    @ExamType3 NVARCHAR(100),
+    @ExamType4 NVARCHAR(100),
+    @ExamType5 NVARCHAR(100)
+AS
+BEGIN
+    SELECT 
+	rv.ReferenceValueId,
+    rv.AgeRange,
+    rv.AnalysisType,
+    rv.ReferenceData,
+	rv.SpeciesId,
+    s.SpeciesName
+	FROM 
+		ReferenceValues rv
+	JOIN 
+		Species s ON rv.SpeciesId = s.SpeciesId
+	WHERE s.SpeciesName = @SpeciesName AND rv.AnalysisType IN (@ExamType1, @ExamType2, @ExamType3, @ExamType4, @ExamType5)
+END;
+GO
+
+
+CREATE OR ALTER PROCEDURE dbo.spAnalizeExam_GetDataJsonByIdExam
+    @ClinicalExamId INT
+AS
+BEGIN
+    SELECT 
+        ea.ExamAnalysisId,
+        ea.AnalysisType,
+        ea.ResultData,
+		ea.ClinicalExamId
+    FROM 
+        ExamAnalyses ea
+	WHERE
+		ea.ClinicalExamId = @ClinicalExamId
+END;
+GO
+
+CREATE OR ALTER PROCEDURE dbo.spAnalizeExam_GetClinicalExam
+	@ClinicalExamId INT
+AS
+BEGIN
+    SELECT ClinicalExamId, ClinicalExamDate, AnimalId, LabTechnicianId from ClinicalExams
+	WHERE ClinicalExamId = @ClinicalExamId
+END;
+GO
+
+CREATE OR ALTER PROCEDURE dbo.spAnalizeExam_GetAnimals
+	@AnimalId INT
+AS
+BEGIN
+    SELECT AnimalId, AnimalName, AnimalAge, AnimalGender, AnimalOwnerId, SpeciesId from Animals
+	WHERE AnimalId = @AnimalId
+END;
+GO
+
+CREATE OR ALTER PROCEDURE dbo.spAnalizeExam_GetSpecies
+	@SpeciesId INT
+AS
+BEGIN
+    SELECT SpeciesId, SpeciesName from Species
+	WHERE SpeciesId = @SpeciesId
+END;
+GO
+

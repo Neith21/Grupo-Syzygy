@@ -173,3 +173,47 @@ C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinary
 C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.pdb
 C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.genruntimeconfig.cache
 C:\Users\guerr\OneDrive\Escritorio\Estesimonestees\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\ref\SyzygyVeterinaryAPI.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.csproj.AssemblyReference.cache
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.AssemblyInfoInputs.cache
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.AssemblyInfo.cs
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.csproj.CoreCompileInputs.cache
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.sourcelink.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\refint\SyzygyVeterinaryAPI.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.pdb
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\SyzygyVeterinaryAPI.exe
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\SyzygyVeterinaryAPI.deps.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\SyzygyVeterinaryAPI.runtimeconfig.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\SyzygyVeterinaryAPI.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\SyzygyVeterinaryAPI.pdb
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\Dapper.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.dll
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\bin\Debug\net8.0\SyzygyVeterinaryAPIControllersData.pdb
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\staticwebassets\msbuild.SyzygyVeterinaryAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.SyzygyVeterinaryAPI.props
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SyzygyVeterinaryAPI.props
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SyzygyVeterinaryAPI.props
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\scopedcss\bundle\SyzygyVeterinaryAPI.styles.css
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.csproj.CopyComplete
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\SyzygyVeterinaryAPI.genruntimeconfig.cache
+C:\Users\Williams\Desktop\Hoy si xd clone\Grupo-Syzygy\SyzygyVeterinaryAPIDemo\SyzygyVeterinaryAPI\obj\Debug\net8.0\ref\SyzygyVeterinaryAPI.dll
